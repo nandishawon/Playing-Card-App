@@ -1,0 +1,28 @@
+
+@media only screen and (min-width: 1280px) and (max-width:1439px){
+    .body-box{
+        width: 52vw;
+    }
+    
+    .card{
+        width: 65vw;
+        height: 65vh;   
+    }
+    .card-body{
+        width: 65vw;
+        height: 65vh;
+
+    }
+    .image-card-body{
+        width: 65vw;
+        height: 65vh;
+    }
+   
+    .image-card-body img{
+        width: calc(65vw - 8px);
+        height: calc(65vh - 94px);
+        padding: 4px;
+        padding-bottom: 0 ;
+    }
+
+}

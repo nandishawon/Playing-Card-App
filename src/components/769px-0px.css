@@ -1,0 +1,97 @@
+
+@media only screen and (min-width: 0px) and (max-width:770px) {
+
+    .body-box{
+        width: 50vw;
+    }
+    .body-box h1{
+        font-size: 30px;
+    }
+    .body-box p{
+        font-size: 14px;
+    }
+    
+    .card {
+        margin-top: 4%;
+        width: calc(100vw - 36px);
+        height: 65vh;     
+    }
+
+    .card-body {
+        width: calc(100vw - 36px);
+        height: 65vh;
+        margin: 3% auto;
+        padding: 18px;
+        font-size: 30px;
+        line-height: 44px;
+    }
+
+    .image-card-body {
+        width: calc(100vw - 36px);
+        height: 65vh;
+        margin: auto;
+    }
+
+    .image-card-body img {
+        width: calc(100vw - 40px);
+        height: calc(65vh - 60px);
+        border-radius: 16px;
+        padding: 2px;
+        padding-bottom: 0;
+    }
+
+    .image-body-footer {
+        font-size: 17px;
+        line-height: 32px;
+        padding: 12px;
+    }
+
+
+    .dot {
+        width: 3px;
+        height: 3px;
+        margin: 0 5px;
+
+    }
+
+    .dotted-navigation-box span{
+        font-size: 14px;
+    }
+
+    .dotted-navigation > div{
+        width: 6px;
+        height: 6px;
+    }
+
+    .blackArrow,
+    .next img {
+        width: 12px;
+        height: 12px;
+
+    }
+
+    .whiteArrow {
+        width: 8px;
+        height: 8px;
+
+    }
+
+    .back,
+    .next {
+        position: absolute;
+        bottom:18px;
+        z-index: 2;
+    }
+
+    .back{
+        left:18px;
+    }
+    .next{
+        right:18px;
+    }
+
+    .footer p{
+        display: none;
+    }
+
+}

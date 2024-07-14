@@ -1,0 +1,75 @@
+
+
+@media only screen and (min-width: 1026px) and (max-width:1279px) {
+    .body-box{
+        width: 46vw;
+    }
+
+    .body-box h1{
+        font-size: 40px;
+    }
+    .body-box p{
+        font-size: 16px;
+    }
+    
+    .card{
+        margin-top:4%;  
+        width: 65vw;
+        height: 65vh;      
+     }
+    
+    .card-body {
+        padding: 18px;
+        font-size: 40px;
+        line-height: 50px;
+        width: 65vw;
+        height: 65vh;
+
+    }
+
+    .image-card-body{
+        width: 65vw;
+        height: 65vh;
+    }
+
+    .image-card-body img{
+        width: calc(65vw - 8px);
+        height: calc(65vh - 60px);
+        padding: 4px;
+        padding-bottom: 0 ;
+
+    }
+
+    .image-body-footer {
+        font-size: 20px;
+        line-height: 37px;
+        padding: 12px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        margin: 0 5px;
+ 
+    }
+
+    .dotted-navigation div{
+        width: 6px;
+        height: 6px;
+    }
+    .dotted-navigation-box span{
+        font-size: 14px;
+    }
+
+    .blackArrow,
+    .next img {
+        width: 12px;
+        height: 12px;
+
+    }
+    .whiteArrow {
+        width: 12px;
+        height: 12px;
+
+    }
+}
